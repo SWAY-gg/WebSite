@@ -26,7 +26,7 @@ body {
 
 .container {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1300px;
 	margin: 0 auto;
 }
 
@@ -80,10 +80,8 @@ body {
 
 .nav__login li a:hover {
 	background-color: #ff0000;
-
-	margin-left: 10px;
+	border-radius: 15px;
 	padding: 6px;
-	border-radius: 2px;
 }
 
 .intro {
