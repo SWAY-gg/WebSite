@@ -6,7 +6,6 @@
 
 body {
 	margin: 0;
-
 	background: #323232;
 
 	font-family: 'Panton Narrow', sans-serif;
@@ -33,7 +32,6 @@ body {
 .logo {
 	cursor: pointer;
 	width: 355px;
-	
 }
 
 .nav__links {
@@ -115,7 +113,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-
 }
 
 .about_title_text {

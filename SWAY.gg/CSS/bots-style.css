@@ -33,6 +33,36 @@
 	font-size: 22px;
 	color: #FFF;
 }
+
+.pre_button_bb {
+	width: 100%;
+	width: 100vh;
+	margin-left: auto;
+}
+
+.pre_button_bb a {
+	color: white;
+	text-decoration: none;
+}
+
+.bbutton {
+	display: inline-block;
+	padding: 10px 25px;
+
+	font-size: 20px;
+
+	border-radius: 6px;
+	background-color: #3264c8;
+	box-shadow: 0 0 15px rgb(0, 255, 0);
+}
+
+.bbutton:hover {
+	border-radius: 6px;
+
+	border: rgb(0, 255, 0) 6px solid;
+	transition: all .1s ease 0s;
+}
+
 /* BlueBerry */
 .bpost {
 	margin-top: 250px;
@@ -81,12 +111,38 @@
 	position: absolute;
 }
 
+
+/* WH SECTION */
+.pre_button_wh {
+	width: 100%;
+	width: 100vh;
+	margin-left: auto;
+}
+
+.wbutton {
+	display: inline-block;
+	padding: 10px 25px;
+
+	color: white;
+	font-size: 20px;
+
+	background-color: #009bf5;
+	box-shadow: 0 0 15px rgb(255, 0, 0);
+}
+
+.wbutton:hover {
+	border-radius: 6px;
+
+	border: rgb(255, 0, 0) 6px solid;
+	transition: all .1s ease 0s;
+}
+
 /* WaveShape */
 .bpost2 {
 	margin-top: 250px;
 	white-space: normal;
 
-	background-color: #3264c8;
+	background-color: #3296ff;
 	display: inline-block;
 
 	width: 720px; 
@@ -95,7 +151,7 @@
 	padding: 10px;
 	margin-left: 820px;
 
-	background: #3264c8;
+	background: #3296ff;
 	position: absolute;
 
 	top: 1px;
@@ -127,4 +183,27 @@
 	margin-top: -100px;
 	margin-left: 155px;
 	position: absolute;
+}
+
+
+/* Footer Text */
+.about {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+
+	min-height: 100vh;
+}
+
+.footer {
+	padding: 20px;
+	margin-top: auto;
+	background-color: #232323;
+}
+
+.left_footer_text {
+	text-transform: lowercase;
+	color: white;
+	font-size: 20px;
+	text-align: left;
 }
