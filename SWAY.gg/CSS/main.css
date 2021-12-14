@@ -39,17 +39,20 @@ body {
 
 .logo {
 	cursor: pointer;
-	width: 355px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
 }
 
 .nav__links {
-	list-style: none;
+	display: flex;
+	justify-content: left;
+	flex-direction: row;
 }
 
 .nav__links li {
 	display: inline-block;
 	padding: 20px 25px;
-
 }
 
 .nav__links li a {
@@ -69,7 +72,10 @@ body {
 }
 
 .nav__login {
-	list-style: none;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
 }
 
 .nav__login li {
@@ -91,6 +97,13 @@ body {
 	padding: 6px;
 }
 
+.main {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
 .imges {
 	padding-top: 0 30px;
 	max-width: 100%;
@@ -105,7 +118,6 @@ body {
 .intro {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
 
 .intro__inner {
@@ -128,52 +140,25 @@ body {
 }
 
 .about_title_text {
-	max-width: 1920px;
+	margin: 30px 20px;
 
 	text-align: left;
-	margin: auto 25px 15px;
-	padding: 10px;
-
 	text-transform: uppercase;
-	font-size: 90px;
+	font-size: 80px;
 	color: #fff;
 }
 
 .about_description_text_1 {
-	margin: 0 auto;
-	margin-left: 10px;
-	padding: 20px;
-	
-	width: 1720px;
-
+	margin: 80px 20px;
 	text-align: left;
 
-	font-size: 50px;
+	font-size: 48px;
 	color: white;
 }
 
-.wight_position {
-	margin: -260px 1870px;
-}
-
-.wight {
-	margin-left: auto;
-	width: 480px;
-	height: 720px;
-}
-
-.footer_content {
-	overflow: hidden;
-
-	display: flex;
-	flex-direction: column;
-
-	min-height: 30vh;
-}
-
 .footer {
-	padding: 20px;
 	margin-top: auto;
+	padding: 20px;
 	background-color: #232323;
 }
 
