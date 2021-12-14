@@ -8,49 +8,79 @@
 }
 
 .botheader {
-	margin-top: 65px;
-	margin-left: 30px;
-	padding: 10px;
-
-	display: inline-block;
-	position: absolute;
-
-	width: 1280px;
-	height: 720px;
+	margin-top: 110px;
+	margin-left: 40px;
 
 	font-size: 35px;
 	color: #FFF;
 
-	top: 1px;
 	border-radius: 15px;
 	box-shadow: 0 0 0px #000;
 }
 
 .botheader__info {
-	margin-top: 185px;
+	margin-top: -70px;
 	margin-left: 40px;
 
 	font-size: 30px;
 	color: #FFF;
 }
 
+/* BlueBerry */
+.bpost {
+	margin-top: 0px;
+	margin-left: 40px;
+
+	width: 740px; 
+	height: 290px;
+
+	background: #96969696;
+	border-radius: 15px;
+
+	border-style: solid;
+	border-color: #FFF;
+
+	box-shadow: 0 0 25px #000;
+}
+
+.bpost__title {
+	margin-top: -155px;
+	margin-left: 170px;
+
+	color: #FFF;
+	font-size: 30px;
+}
+
+.bpost__text {
+	margin-top: -10px;
+	margin-left: 170px;
+
+	color: #FFF;
+	font-size: 25px;
+}
+
+/* Avatar BlueBerry */
+.avatar {
+	margin: 10px;
+	border-radius: 15px;
+}
+
+/* Button BlueBerry */
 .pre_button_bb {
-	width: 100%;
-	width: 100vh;
-	margin-left: auto;
+	margin-left: 10px;
 }
 
 .pre_button_bb a {
 	font-family: 'Panton Narrow', sans-serif;
-	font-size: 19px;
+	font-size: 18px;
 
 	color: #969696;
 	text-decoration: none;
 }
 
 .bbutton {
-	display: inline-block;
 	padding: 10px 20px;
+	margin-top: -40px;
 
 	font-size: 20px;
 
@@ -66,25 +96,15 @@
 	transition: all .1s ease 0s;
 }
 
-/* BlueBerry */
-.bpost {
-	margin-top: 300px;
-	white-space: normal;
+/* WaveShape */
+.bpost2 {
+	margin-top: 40px;
+	margin-left: 40px;
 
-	background-color: #737373;
-	display: inline-block;
-
-	width: 690px; 
+	width: 740px; 
 	height: 290px;
 
-	padding: 10px;
-	margin-left: 35px;
-
-	/* background: url("Images/BotBanner3.png") no-repeat center; */
 	background: #96969696;
-	position: absolute;
-
-	top: 1px;
 	border-radius: 15px;
 
 	border-style: solid;
@@ -93,46 +113,41 @@
 	box-shadow: 0 0 25px #000;
 }
 
-.avatar {
-	border-radius: 15px;
-}
-
-.bpost__title {
-	margin-top: -150px;
+.bpost__title2 {
+	margin-top: -155px;
 	margin-left: 170px;
-	position: absolute;
 
 	color: #FFF;
 	font-size: 30px;
 }
 
-.bpost__text {
-	color: #FFF;
-	font-size: 22px;
-
-	margin-top: -100px;
+.bpost__text2 {
+	margin-top: -10px;
 	margin-left: 170px;
-	position: absolute;
+
+	color: #FFF;
+	font-size: 25px;
+}
+/* Waveshape Avatar */
+.avatar2 {
+	margin: 10px;
+	border-radius: 15px;
 }
 
-
-/* WH SECTION */
+/* Waveshape Button */
 .pre_button_wh {
-	width: 100%;
-	width: 100vh;
-	margin-left: auto;
+	margin: 11px;
 }
 
 .pre_button_wh a {
 	font-family: 'Panton Narrow', sans-serif;
-	font-size: 19px;
+	font-size: 18px;
 
 	color: #969696;
 	text-decoration: none;
 }
 
 .wbutton {
-	display: inline-block;
 	padding: 10px 20px;
 
 	font-size: 20px;
@@ -149,62 +164,12 @@
 	transition: all .1s ease 0s;
 }
 
-/* WaveShape */
-.bpost2 {
-	margin-top: 300px;
-	white-space: normal;
-
-	background-color: #737373;
-	display: inline-block;
-
-	width: 690px; 
-	height: 290px;
-
-	padding: 10px;
-	margin-left: 750px;
-
-	/* background: url("Images/BotBanner3.png") no-repeat center; */
-	background: #96969696;
-	position: absolute;
-
-	top: 1px;
-	border-radius: 15px;
-
-	border-style: solid;
-	border-color: #FFF;
-
-	box-shadow: 0 0 25px #000;
-}
-
-.avatar {
-	border-radius: 15px;
-}
-
-.bpost__title2 {
-	margin-top: -150px;
-	margin-left: 170px;
-	position: absolute;
-
-	color: #FFF;
-	font-size: 30px;
-}
-
-.bpost__text2 {
-	color: #FFF;
-	font-size: 22px;
-
-	margin-top: -100px;
-	margin-left: 170px;
-	position: absolute;
-	
-}
-
 /* Footer Text */
-.about {
+.main {
 	overflow: hidden;
 	display: flex;
-	flex-direction: column;
 
+	flex-direction: column;
 	min-height: 100vh;
 }
 
