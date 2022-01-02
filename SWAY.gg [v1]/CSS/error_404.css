@@ -1,0 +1,30 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	background: #323232;
+	font-family: 'Panton Narrow', sans-serif;
+	font-size: 28px;
+}
+
+.text_error {
+	min-height: 90vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ .text_title {
+	 margin-top: -500px;
+	 text-align: center;
+}
+
+.text_title a {
+	font-size: 90px;
+	text-decoration: none;
+	color: white;
+}

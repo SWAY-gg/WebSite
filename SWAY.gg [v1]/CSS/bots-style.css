@@ -1,0 +1,166 @@
+.select__button {
+	background-color: #0096ff;
+
+	margin-left: 10px;
+
+	padding: 6px;
+	border-radius: 15px;
+}
+
+.botheader {
+	margin-top: 110px;
+	margin-left: 40px;
+	max-width: 1200px;
+
+	font-size: 35px;
+	color: #FFF;
+
+	border-radius: 15px;
+	box-shadow: 0 0 0px #000;
+}
+
+.botheader__info {
+	margin-top: -70px;
+	margin-left: 40px;
+
+	font-size: 30px;
+	color: #FFF;
+}
+
+/* BlueBerry */
+.bpost {
+	margin-left: 40px;
+	margin-top: 0;
+
+	width: 740px; 
+	height: 290px;
+
+	background: #969696;
+	border-radius: 15px;
+
+	border-style: solid;
+	border-color: #FFF;
+
+	box-shadow: 0 0 25px #000;
+}
+
+.bpost__title {
+	margin-top: -155px;
+	margin-left: 165px;
+
+	color: #FFF;
+	font-size: 30px;
+}
+
+.bpost__text {
+	margin-top: -10px;
+	margin-left: 165px;
+
+	color: #FFF;
+	font-size: 25px;
+}
+
+/* Avatar BlueBerry */
+.avatar {
+	margin: 10px;
+	border-radius: 15px;
+}
+
+/* Button BlueBerry */
+.pre_button_bb {
+	margin-left: 10px;
+}
+
+.pre_button_bb a {
+	font-family: 'Panton Narrow', sans-serif;
+	font-size: 18px;
+
+	color: #969696;
+	text-decoration: none;
+}
+
+.bbutton {
+	padding: 10px 20px;
+	margin-top: -40px;
+
+	font-size: 20px;
+
+	border-radius: 6px;
+	background-color: #cccccc;
+	box-shadow: 0 0 15px #FFF;
+}
+
+.bbutton:hover {
+	border-radius: 6px;
+
+	border: #FFF 6px solid;
+	transition: all .1s ease 0s;
+}
+
+/* WaveShape */
+.bpost2 {
+	margin-left: 40px;
+	margin-top: 20px;
+
+	width: 740px; 
+	height: 290px;
+
+	background: #969696;
+	border-radius: 15px;
+
+	border-style: solid;
+	border-color: #FFF;
+
+	box-shadow: 0 0 25px #000;
+}
+
+.bpost__title2 {
+	margin-top: -155px;
+	margin-left: 165px;
+
+	color: #FFF;
+	font-size: 30px;
+}
+
+.bpost__text2 {
+	margin-top: -10px;
+	margin-left: 165px;
+
+	color: #FFF;
+	font-size: 25px;
+}
+/* Waveshape Avatar */
+.avatar2 {
+	margin: 10px;
+	border-radius: 15px;
+}
+
+/* Waveshape Button */
+.pre_button_wh {
+	margin: 11px;
+}
+
+.pre_button_wh a {
+	font-family: 'Panton Narrow', sans-serif;
+	font-size: 18px;
+
+	color: #969696;
+	text-decoration: none;
+}
+
+.wbutton {
+	padding: 10px 20px;
+
+	font-size: 20px;
+
+	border-radius: 6px;
+	background-color: #cccccc;
+	box-shadow: 0 0 15px #FFF;
+}
+
+.wbutton:hover {
+	border-radius: 6px;
+
+	border: #FFF 6px solid;
+	transition: all .1s ease 0s;
+}
