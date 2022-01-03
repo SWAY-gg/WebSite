@@ -25,9 +25,13 @@
 * [ ] Log in page
 
 ## TODO (FIX)
+### 2021
 * Fix resize for mobile device
 * Fix resize bot page and positioning when changing the screen
-* Fix Header, footer and nav bar
+* Fix Header, footer and nav bar<br>
+
+### 2022
+* Fix burger style to modile/desktop version 
 
 --- 
 
