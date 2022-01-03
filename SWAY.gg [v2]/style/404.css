@@ -1,0 +1,28 @@
+/* Error
+======================== */
+.error__into {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+    height: 920px;
+}
+
+.error__in {
+    width: 100%;
+	max-width: 1250px;
+	margin: 0 auto;
+
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.error__title {
+    color: #FFF;
+    font-size: 90px;
+}
+
+.error__text {
+    color: #FFF;
+    font-size: 48px;
+}
