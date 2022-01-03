@@ -14,8 +14,8 @@
 
 ## TODO (Rest)
 * [x] Main page
-* [x] Bot page
-* [ ] Server page
+* [ ] Bot page
+* [ ] Server state page
 * [ ] Support page
 * [ ] Log in page
 
