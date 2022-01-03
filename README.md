@@ -1,8 +1,8 @@
-# SWAY.gg WebSite [v1] (CLOSED)
+# SWAY.gg WebSite [v1] (CLOSED 2021/11/29)
 
 # SWAY.gg WebSite [v2]
-## Информация о продвижение разработки сайта
-## Более поддробнуу юинформацию можно найти на discord сервере
+Информация о продвижение разработки сайта<br>
+Более подробную информацию можно найти на discord сервере
 
 * [SERVER](https://discord.gg/dVrjacHT3v)
 ---
