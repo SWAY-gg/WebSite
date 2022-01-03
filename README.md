@@ -1,10 +1,5 @@
 <!-- Header -->
 <h1 class="new_site"> SWAY.gg WebSite [v2] </h1>
-<style>
-    .new_site {
-        text-align: center;
-    }
-</style>
 
 <!-- Header Title -->
 <div class="info_header">
@@ -13,12 +8,6 @@
         Более подробную информацию можно найти на <a class="header__text" herf="https://discord.gg/dVrjacHT3v">Discord сервере</a>
     </h2>
 </div>
-<style>
-    .header__text {
-        color: #FFF;
-        text-decoration: underline;
-    }
-</style>
 
 <!-- Intro -->
 
